@@ -52,7 +52,7 @@ ggplot()+geom_bar(data=l,aes(x=as.character(l$year) ,y=l$Percentage,fill=l$`Disc
 
 
 
-# carbon footprint over t time & target 7x3.5
+# carbon footprint over t time & target 6X8
 target<-c(0.80)# variable
 intensity<-c(portfolio.metric.value*1.6, portfolio.metric.value*0.9, portfolio.metric.value*1.2,portfolio.metric.value, portfolio.metric.value*target) #dummy numbers 
 year<-c("2012","2013","2014","2015","2016/target")
